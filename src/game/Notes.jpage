@@ -1,0 +1,117 @@
+TODO
+**********************
+o triangulation of models done in Loader
+o bullets use rays, slower projectiles use objects
+o add list of objects that a ray intersects with
+p scene manager (menu, game)
+p adjust weapon positioning on a per-weapon basis
+p weapon animations: recoil (firearms), stab (knife)
+x ray-AABB intersection
+x shadows
+x bullet holes
+x OBBs
+x juice!
+x AI behaviour:
+    idling
+    if more than 5s idle, start patrolling
+    if patrol route complete, idle
+    if player in LoS and close enough: start attacking
+    if player in LoS, but too far, approach
+    if health < 20%, go berserker mode
+    if player out of LoS, go back to idling / patrolling
+x game name
+x rotation interpolation
+x spot light
+x unit patrol
+x animations
+x enemies face the player and then move towards him
+x terrain
+? bouncing projectile
+Particle effects:
+    o projectile hit
+    p death
+    ? object destruction
+Audio:
+    p explosion
+    p weapon fire
+    p projectile hit
+    x jump
+    x bg music
+    x walk
+    x fall
+    x death
+    x weapon stab
+
+GUI:
+   Play:
+        p New Game
+	    x Load Game
+   Settings: 
+        o Toggle vsync
+        o Resolution
+        x Field of View
+        x Toggle fullscreen
+        p Sound Volume
+        p Music Volume
+        x Keyboard & Mouse
+        	(all key mappings)
+   o Exit
+
+Minimum:
+    o movement 
+    o jumping
+    o camera
+	o item switch 
+	o item pickup
+    o something to shoot at
+    p shooting
+	p something that shoots at you
+    x proper collision
+
+HIGH LEVEL TODOs
+**********************
+o Basic weapon inventory
+o Ammo indicator
+o Melee attacking
+o Health regeneration
+o Health and ammo pickups
+p Weapon reload (manual & automatic)
+p Surface types for different impact particles and sounds
+x No clip option
+x Saving & Loading  
+x Camera color change upon taking damage
+x Swimming
+x Templates for different types of weapons: rifle, launcher, shotgun, pistol and sniper
+? Aiming & Walk slower while aiming
+? Sprinting, crouching
+? Camera shake
+? Map (found occasionally on the walls)
+? Vehicles
+? In-game currency
+? Interactive environment (levers, etc)
+ 
+Legend:
+    o : complete
+    p : partially complete
+    x : not even close
+    ? : questionable
+
+CONCEPT
+**********************
+FPS
+
+player starts by descending down a well in a wooden elevator
+player start by going down the spiral staircase
+player irrevocably chooses one of the entrances which determines how the game begins
+wishing well?
+
+Mechanics ideas:
+    Gravity reversal
+    Player can change to 3rd person view (special ability): allows flying, used for reconnaissance 
+    (the distance it can travel from the body is limited by adding barriers, max distance, walls, things that are visible only to it, etc.)
+    
+    Places where the only light source are your firearms so in order to see, the player has to fire occasionally
+    
+    ...
+    
+**********************
